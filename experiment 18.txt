@@ -1,0 +1,222 @@
+ 
+ 
+import java.util.*;
+
+
+/**
+ * Class admin
+ */
+public class admin {
+
+  //
+  // Fields
+  //
+
+  private void customer_id;
+  private void customer_details;
+  
+  //
+  // Constructors
+  //
+  public admin () { };
+  
+  //
+  // Methods
+  //
+
+
+  //
+  // Accessor methods
+  //
+
+  /**
+   * Set the value of customer_id
+   * @param newVar the new value of customer_id
+   */
+  private void setCustomer_id (void newVar) {
+    customer_id = newVar;
+  }
+
+  /**
+   * Get the value of customer_id
+   * @return the value of customer_id
+   */
+  private void getCustomer_id () {
+    return customer_id;
+  }
+
+  /**
+   * Set the value of customer_details
+   * @param newVar the new value of customer_details
+   */
+  private void setCustomer_details (void newVar) {
+    customer_details = newVar;
+  }
+
+  /**
+   * Get the value of customer_details
+   * @return the value of customer_details
+   */
+  private void getCustomer_details () {
+    return customer_details;
+  }
+
+  //
+  // Other methods
+  //
+
+}
+
+
+import java.util.*;
+
+
+/**
+ * Class customer
+ */
+public class customer {
+
+  //
+  // Fields
+  //
+
+  private void oder_food;
+  private void select_food_item;
+  private void pay_;
+  
+  //
+  // Constructors
+  //
+  public customer () { };
+  
+  //
+  // Methods
+  //
+
+
+  //
+  // Accessor methods
+  //
+
+  /**
+   * Set the value of oder_food
+   * @param newVar the new value of oder_food
+   */
+  private void setOder_food (void newVar) {
+    oder_food = newVar;
+  }
+
+  /**
+   * Get the value of oder_food
+   * @return the value of oder_food
+   */
+  private void getOder_food () {
+    return oder_food;
+  }
+
+  /**
+   * Set the value of select_food_item
+   * @param newVar the new value of select_food_item
+   */
+  private void setSelect_food_item (void newVar) {
+    select_food_item = newVar;
+  }
+
+  /**
+   * Get the value of select_food_item
+   * @return the value of select_food_item
+   */
+  private void getSelect_food_item () {
+    return select_food_item;
+  }
+
+  /**
+   * Set the value of pay_
+   * @param newVar the new value of pay_
+   */
+  private void setPay_ (void newVar) {
+    pay_ = newVar;
+  }
+
+  /**
+   * Get the value of pay_
+   * @return the value of pay_
+   */
+  private void getPay_ () {
+    return pay_;
+  }
+
+  //
+  // Other methods
+  //
+
+}
+
+import java.util.*;
+
+
+/**
+ * Class delivery_boy
+ */
+public class delivery_boy {
+
+  //
+  // Fields
+  //
+
+  private void delivery_food;
+  private void take_money;
+  
+  //
+  // Constructors
+  //
+  public delivery_boy () { };
+  
+  //
+  // Methods
+  //
+
+
+  //
+  // Accessor methods
+  //
+
+  /**
+   * Set the value of delivery_food
+   * @param newVar the new value of delivery_food
+   */
+  private void setDelivery_food (void newVar) {
+    delivery_food = newVar;
+  }
+
+  /**
+   * Get the value of delivery_food
+   * @return the value of delivery_food
+   */
+  private void getDelivery_food () {
+    return delivery_food;
+  }
+
+  /**
+   * Set the value of take_money
+   * @param newVar the new value of take_money
+   */
+  private void setTake_money (void newVar) {
+    take_money = newVar;
+  }
+
+  /**
+   * Get the value of take_money
+   * @return the value of take_money
+   */
+  private void getTake_money () {
+    return take_money;
+  }
+
+  //
+  // Other methods
+  //
+
+}
+
+
